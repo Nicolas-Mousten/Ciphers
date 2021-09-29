@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Vigenère_Cipher_Dosent_Work_With_Blank_Spaces {
+public class Vigenère_Cipher {
     public static String abc = "abcdefghijklmnopqrstuvwxyz ,.!";
 
     public static Scanner scanner(){
@@ -90,6 +90,7 @@ public class Vigenère_Cipher_Dosent_Work_With_Blank_Spaces {
             if (r < 0)
             {
                 input += alphabetLen;
+
             }
             //------------------------------------------------------------------------------------------------------
 
